@@ -1,0 +1,130 @@
+:root {
+    /* Polar Night */
+    --first-dark: #2e3440;
+    --first-dark-transparent: #2e3440CC;
+    --second-dark: #3b4252;
+    --third-dark: #434c5e;
+    --fourth-dark: #4c566a;
+
+    /* Snow Storm */
+    --first-light: #d8dee9;
+    --second-light: #e5e9f0;
+    --third-light: #eceff4;
+
+    /* Link Orande */
+    --link-orange: #d08770;
+
+    /* Background Colors */
+    --background-dark: #1A1D24;
+}
+
+
+html {
+    /* Box sizing to total values set, not added after the fact */
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    /* Use box sizing for all */
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header h1 {
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    width: 75%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 800px;
+    background-color: var(--third-light);
+    border-radius: 25px;
+    padding: 25px;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mainMenu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+    width: 60%;
+    flex: 1;
+}
+
+.mainMenu li {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    background-color: var(--first-dark);
+    border-radius: 5px;
+    color: var(--first-light);
+}
+
+.mainMenu li a {
+    text-decoration: none;
+    color: var(--first-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+}
+
+.horiz {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    gap: 10px;
+}
+
+.col p {
+    flex: 1;
+}
+
+.foodimg {
+    border-radius: 10px;
+    margin: auto;
+    border: solid 1px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+}
