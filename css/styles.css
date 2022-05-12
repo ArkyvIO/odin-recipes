@@ -104,11 +104,15 @@ nav {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    margin: auto;
     gap: 10px;
+    flex: 1;
 }
 
 .col p {
+    flex: 1;
+}
+
+.col ul {
     flex: 1;
 }
 
