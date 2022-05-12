@@ -1,5 +1,9 @@
 // Hide home until I get things sorted
 
+$('#tikka').hide();
+$('#lbchicken').hide();
+$('#steakrb').hide();
+
 $(document).ready(function () {
 
     let whichVis = '#home';
