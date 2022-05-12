@@ -82,20 +82,13 @@ nav {
 .mainMenu li {
     display: flex;
     padding: 10px;
-    flex: 1;
     background-color: var(--first-dark);
     border-radius: 5px;
     color: var(--first-light);
-}
-
-.mainMenu li a {
-    text-decoration: none;
-    color: var(--first-light);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex: 1;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .horiz {
