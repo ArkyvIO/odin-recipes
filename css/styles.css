@@ -121,3 +121,7 @@ nav {
     gap: 15px;
     margin: 15px;
 }
+
+.title {
+    text-align: center;
+}
