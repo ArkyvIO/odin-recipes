@@ -11,3 +11,5 @@ In this project, I learned (or practiced):
 - JavaScript (JQuery) Selectors and Animations
 - HTML Formatting (Headings, Paragraphs, Etc.)
 - Directory Navigation and Management within HTML.
+## To-Do
+- Reconfigure landing page of the recipes site to not look so bland.
